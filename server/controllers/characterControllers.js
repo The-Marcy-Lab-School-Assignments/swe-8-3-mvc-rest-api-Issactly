@@ -31,7 +31,6 @@ const createCharacter = (req, res) => {
 //update
 const updateCharacter = (req, res) => {
     const { characterName } = req.body;
-    const { id } = req.params;
 
     if (!characterName) {
         return res.status(400).send({ message: "Invalid Name"});

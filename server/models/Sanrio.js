@@ -18,7 +18,7 @@ class Character {
       name,
       id: getId()
     }
-    fellows.push(newCharacter)
+    characters.push(newCharacter)
     return newCharacter
   }
   
