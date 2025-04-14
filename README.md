@@ -65,28 +65,28 @@ There are a total of 20 total requirements:
 
 ### Model Requirements
 
-- [ ] A collection of objects is managed by the server API
-- [ ] Every object in the collection has a unique `id` and at least two (2) additional properties
+- [x] A collection of objects is managed by the server API
+- [x] Every object in the collection has a unique `id` and at least two (2) additional properties
 
 * Interactions with the data are provided by a `class` with at least:
 
-  - [ ] a `static` method to **create** a new resource.
-  - [ ] a `static` method to **read** existing resources (either all or one at a time).
-  - [ ] a `static` method to **update** an existing resource.
-  - [ ] a `static` method to **delete** an existing resource.
+  - [x] a `static` method to **create** a new resource.
+  - [x] a `static` method to **read** existing resources (either all or one at a time). (i think i did both?)
+  - [x] a `static` method to **update** an existing resource.
+  - [x] a `static` method to **delete** an existing resource.
 
 ### Endpoint / Controller Requirements
 
 * The server has endpoints including at least:
   - [ ] one `GET` method
   - [ ] one `POST` method
-  - [ ] one `PATCH` method with a route parameter for `:id`
-  - [ ] one `UPDATE` method with a route parameter for `:id`
+  - [x] one `PATCH` method with a route parameter for `:id`
+  - [x] one `UPDATE` method with a route parameter for `:id`
 
 - [ ] The server can parse JSON in incoming requests with `express.json()` middleware
-- [ ] All endpoints begin with `/api`
-- [ ] All endpoints use plural nouns (e.g. `/api/fellows`), NOT verbs (e.g. `/api/getFellows`)
-- [ ] Error codes are used appropriately (see below for error code information):
+- [x] All endpoints begin with `/api`
+- [x] All endpoints use plural nouns (e.g. `/api/fellows`), NOT verbs (e.g. `/api/getFellows`)
+- [x]git  Error codes are used appropriately (see below for error code information):
 
 ### Deployment Requirements
 
